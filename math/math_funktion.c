@@ -15,4 +15,6 @@ int main()
 	ergebnis = x*x + y*y;
 	
 	printf("Ergebnis: %d ", ergebnis);
+	
+	return 0;
 }

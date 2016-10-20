@@ -8,7 +8,7 @@
 int main() {
 	/* Das Programm gibt immer den selben Text aus,
        der nicht beeinflusst werden kann. */   
-   printf("Hallo %s und  %s! \n","Max","test");
+   printf("Hallo %s und  %s! \n","Max","Andreas");
    return 0;
 }
 
