@@ -9,20 +9,17 @@ int main()
 	printf("Von welcher Zahl soll die Fakuktaet gebildet werden?\n");
 	scanf("%d", &n);
 
-	ergebnis = n;
-	zaehler = n;
-	zaehler = zaehler - 1;
+	ergebnis = 1;
+	zaehler = 1;
 	
-	while (zaehler > 0)
+	while (zaehler <= n)
 	{
 		ergebnis = ergebnis * zaehler;
-		//printf("work");
 		
-		zaehler = zaehler - 1;
-		//printf("count");
+		zaehler = zaehler + 1;
 	}
 	
-	printf("Ergebnis Fakuktaet von %d: %d \n", n, ergebnis);
+	printf("Ergebnis: %d \n", ergebnis);
 	return 0;
 }
 
