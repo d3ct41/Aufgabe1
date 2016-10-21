@@ -8,10 +8,12 @@ Gkaitatzis, Andreas, 2320008, Gkaitatzis.A@web.de}
 \title{Design Dokument \\PR1 Praktikum WS2016}
 \date{ 	\begin{tabular}{|c|c|c|}
 		\hline 
-		Version & Datum & Anmerkung \\ 
+		Version & Datum & Anmerkung\\ 
 		\hline 
 		1.0 & 21.10.2016 & Erste Abgabe\\ 
 		\hline 
+		1.1 & 21.10.2016 & kleiner Korrekturen, ausbessern von Tippfehlern\\
+		\hline
 		\end{tabular} }
 
 \begin{document}
@@ -65,14 +67,14 @@ Gkaitatzis, Andreas, 2320008, Gkaitatzis.A@web.de}
 	- restSekunden = anzahlSekunden \% 86400\\
 		$\rightarrow$ Alle möglichen Tage aus anzahlSekunden rausrechnen\\
 	- stunden = restSekunden / 3600\\
-		$\rightarrow$ Eine Stunde hat 300 Sekunden\\
+		$\rightarrow$ Eine Stunde hat 3600 Sekunden\\
 	- restSekunden = anzahlSekunden \% 3600\
 		$\rightarrow$ Alle mögl. Stunden aus anzahlSekunden rausrechnen\\
 	-minuten = restSekunden / 60\\
 		$\rightarrow$ Eine Minute hat 60 Sekunden\\\
 	- restSekunden = restSekunden \% 60\\
-		$\rightarrow$ Alle Minuten aus restSekunden rausrechnen, übrig bleiben nur Sekunden, ohne Min, Stunden oder Tage\\
-	-Ausgabe tage, stunden, minuten, restSekunden
+		$\rightarrow$ Alle Minuten aus restSekunden rausrechnen, übrig bleiben nur Sekunden, ohne Minuten, Stunden oder Tage\\
+	-Ausgabe der Variablen tage, stunden, minuten, restSekunden
 				
 	
 	
