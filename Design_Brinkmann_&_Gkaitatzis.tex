@@ -1,0 +1,88 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[ngerman]{babel}
+
+\author{Brinkmann, Maximilian, 2319886, maximilian.brinkmann@haw-hamburg.de \\
+Gkaitatzis, Andreas, 2320008, Gkaitatzis.A@web.de}
+
+\title{Design Dokument \\PR1 Praktikum WS2016}
+\date{ 	\begin{tabular}{|c|c|c|}
+		\hline 
+		Version & Datum & Anmerkung\\ 
+		\hline 
+		1.0 & 21.10.2016 & Erste Abgabe\\ 
+		\hline 
+		1.1 & 21.10.2016 & kleiner Korrekturen, ausbessern von Tippfehlern\\
+		\hline
+		\end{tabular} }
+
+\begin{document}
+	\maketitle
+	
+	\section*{Aufgabe 1: Hallo Person 1 und Person 2}
+	\subsection*{Design in Pseudocode}
+	\subsubsection{Aktivitäten:}
+	- Ausgabe: Hallo Max und Andreas!
+	
+	\section*{Aufgabe 2: Fakultät von n}
+	\subsection*{Design in Pseudocode}
+	\subsubsection*{Daten:}
+	1.	ergebnis\\
+	2.	n (Eingabe)\\
+	3.	zaehler
+	\subsubsection*{Aktivitäten:}
+	- Einlesen von n\\
+	- ergebnis und zähler gleich 1\\
+	- Solange zähler kleinergleich n, mach\\
+	$\rightarrow$ ergebnis * zähler\\
+	$\rightarrow$ zähler +1\\
+	-Ausgabe: ergebnis
+	
+	\section*{Aufgabe 3: f(x) = x$^2$ + y$^2$}
+	\subsection*{Design in Pseudocode}
+	\subsubsection*{Daten:}
+	1.	ergebnis\\
+	2.	x (Eingabe)\\
+	3.	y (Eingabe)
+	\subsubsection*{Aktivitäten:}
+	- Einlessen von x\\
+	- Einlesen von y\\
+	- ergebnis = x*x + y*y\\
+	- ergebnis Ausgeben
+	
+	\newpage
+	
+	\section*{Aufgabe 4: Satellitenzeit}
+	\subsection*{Desgin in Pseudocode}
+	\subsubsection*{Daten:}
+	1.	anzahlSekunden (Eingabe)\\
+	2.	restSekunden\\
+	3.	tage\\
+	4.	stunden\\
+	5.	minuten
+	\subsubsection*{Aktivitäten:}
+	- Einlesen von anzahlSekunden\\
+	- tage = anzahlSekunden / 86400\\
+		$\rightarrow$ Ein Tag hat 86400 Sekunden\\
+	- restSekunden = anzahlSekunden \% 86400\\
+		$\rightarrow$ Alle möglichen Tage aus anzahlSekunden rausrechnen\\
+	- stunden = restSekunden / 3600\\
+		$\rightarrow$ Eine Stunde hat 3600 Sekunden\\
+	- restSekunden = anzahlSekunden \% 3600\
+		$\rightarrow$ Alle mögl. Stunden aus anzahlSekunden rausrechnen\\
+	-minuten = restSekunden / 60\\
+		$\rightarrow$ Eine Minute hat 60 Sekunden\\\
+	- restSekunden = restSekunden \% 60\\
+		$\rightarrow$ Alle Minuten aus restSekunden rausrechnen, übrig bleiben nur Sekunden, ohne Minuten, Stunden oder Tage\\
+	-Ausgabe der Variablen tage, stunden, minuten, restSekunden
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

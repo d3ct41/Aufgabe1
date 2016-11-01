@@ -1,8 +1,12 @@
-/* Satellitenzeit.c
-   Version 1.0
-   Vorlesung Programmieren 1 HAW Hamburg
-   Zweck: Satellitenzeit Aufgabe 4 - mit Vorgabecode
-   */
+/*
+ * Author: Andreas  Gkaitatzis, Maximilian Brinkmann
+ * 
+ * Version: 1.1
+ * Datum: 21.10.2016
+ * Gruppe 3
+ * 
+ * Umrechnung von Sekunden in Tage, Stunden, Minuten, Sekunden
+ * */
 
 #include <stdio.h>
 
